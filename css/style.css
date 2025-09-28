@@ -84,14 +84,9 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
- }
- 
-
-
-
-
+ } 
 .team-section {
-#f4f4fd;
+ background-color: #f4f4fd;
 }
 .team-list {
         font-weight: 500;
@@ -101,6 +96,9 @@ a {
         text-align: center;
         color: #2e2f42;
 }
+ .team-photo {
+    background-color: #FFFFFF;
+ }
 .team-name {
     font-weight: 500;
         font-size: 20px;
@@ -117,3 +115,17 @@ a {
         text-align: center;
         color: #434455;
  }
+ .portfolio, 
+ .team {
+    font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11111;
+        letter-spacing: 0.02em;
+        text-align: center;
+        text-transform: capitalize;
+        color: #2e2f42;
+ }
+.portfolio-img {
+    background-color: #FFFFFF;
+}
