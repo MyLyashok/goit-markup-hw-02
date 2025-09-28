@@ -49,7 +49,7 @@ a {
     background-color: #2e2f42;;
 }
 .hero-button {
-    
+    cursor: pointer;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -57,6 +57,11 @@ a {
         color: #fff;
         background-color: #4d5ae5;
 }
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404bbf;
+}
+
 .hero-title {
         font-weight: 700;
         font-size: 56px;
